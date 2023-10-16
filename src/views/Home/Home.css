@@ -1,0 +1,45 @@
+/*
+primary:#2eb82e
+secondary:#85e085
+light:#d6f5d6
+*/
+body{
+    background-color:#d6f5d6 ;
+}
+
+.app-title{
+    text-align: center;
+    font-size: 50px;
+    color:#2eb82e
+
+}
+.app-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.user-input{
+    display: block;
+    font-size:25px;
+    padding:5px;
+    margin:30px;
+    border-radius: 5px;
+    border: 1px solid #2eb82e;
+}
+.btn-add-contact{
+    display: block;
+    font-size: 30px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color:#2eb82e;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
